@@ -1,52 +1,22 @@
 <html>
-    <head>
-        <title>Alice Burns</title>
-        <link rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <div class="top-bar">
-            <span class="mono title"> Alice Burns </span>
-            <span class="subtitle"> Functional programmer, web developer, coffee enthusiast </span>
-            <span class="links mono">
-                <a href="#about">About</a>
-                |
-                <a href="#projects">Projects</a>
-                |
-                <a href="#contact">Contact</a>
-            </span>
-            <div class="line"></div>
-        </div>
-        <div class="content" id="about">
-            <span class="title">About Me</span>
-            <p>Lorem Ipsum</p>
-            <p>Foo bar baz</p>
-        </div>
-        <div class="content" id="projects">
-            <span class="title">Projects</span>
-            <p>Lorem Ipsum</p>
-            <p>Foo bar baz</p>
-        </div>
-        <div class="content" id="contact">
-            <span class="title">Contact Me</span>
-            <div class="flex contact-row">
-                <i class="far fa-envelope"></i>
-                <span>me (at) alice157 (dot) dev</span>
-            </div>
-            <div class="flex contact-row">
-                <i class="fab fa-github"></i>
-                <span>
-                    <a href="https://github.com/alice157">alice157</a>
-                </span>
-            </div>
-            <div class="flex contact-row">
-                <i class="fab fa-linkedin"></i>
-                <span>
-                    <a href="https://linkedin.com/in/alice-burns-89248b13b">Alice Burns</a>
-                </span>
-            </div>
-        </div>
-    </body>
-    <script src="https://kit.fontawesome.com/54f38ae088.js" crossorigin="anonymous"></script>
+	<head>
+		<title>alice-burns.edn</title>
+		<link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+	</head>
+	<body>
+		<code>
+			<pre>
+{:name <span class="string-0">"alice burns"</span>
+ :role :software-engineer
+ :email {<span class="kw-1">:user-name</span> <span class="string-1">"me"</span>
+         <i class="comment">; (at)</i>
+         <span class="kw-1">:domain</span> <span class="string-1">"alice157.dev"</span>}
+ :city <span class= "string-0">"seattle"</span>
+ :pronouns #{<span class="kw-1">:she/her</span> <span class="kw-1">:they/them</span>}
+ :languages [<span class="kw-1">:clojure</span> <span class="kw-1">:clojurescript</span> <span class="kw-1">:java</span> <span class="kw-1">:python</span>] <i class="comment">; or something new?</i>
+ :hobbies #{<span class="string-1">"3d printing"</span> <span class="string-1">"video/board games"</span> <span class="string-1">"coffee"</span>}}
+			</pre>
+		</code>
+	</body>
 </html>
